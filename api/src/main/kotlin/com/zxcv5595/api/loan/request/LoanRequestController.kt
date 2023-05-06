@@ -19,4 +19,5 @@ class LoanRequestController(
                 loanRequestServiceImpl.loanRequestMain(loanRequestInputDto)
         )
     }
+
 }

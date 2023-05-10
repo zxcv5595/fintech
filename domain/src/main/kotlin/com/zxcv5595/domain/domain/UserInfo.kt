@@ -1,5 +1,6 @@
 package com.zxcv5595.domain.domain
 
+import com.zxcv5595.api.loan.encrypt.Encrypt
 import javax.persistence.*
 
 @Entity
@@ -8,6 +9,7 @@ class UserInfo(
         @Column(name = "usr_key")
         val userKey: String,
 
+        @Encrypt
         @Column(name = "usr_reg_num")
         val userRegistrationNumber: String,
 

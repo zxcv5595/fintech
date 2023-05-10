@@ -8,6 +8,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa:2.7.6")
     implementation("io.springfox:springfox-boot-starter:3.0.0")
+    implementation("mysql:mysql-connector-java:8.0.25")
     implementation(project(":domain"))
     implementation(project(":kafka"))
     testImplementation("io.mockk:mockk:1.12.0")
